@@ -1,0 +1,91 @@
+/* ========================================
+   GARFI Design System — Design Tokens
+   Reusable across all pages
+   ======================================== */
+
+:root {
+  /* ---- Colors ---- */
+  --c-pink: #ff3e7a;
+  --c-pink-light: #ff6b9d;
+  --c-pink-dark: #e0285f;
+  --c-orange: #ff8c42;
+  --c-orange-light: #ffa869;
+  --c-cream: #fff8f0;
+  --c-white: #ffffff;
+  --c-dark: #1a1a1a;
+  --c-dark-2: #222022;
+  --c-surface: #2d2d2d;
+
+  --c-text: #ffffff;
+  --c-text-2: rgba(255, 255, 255, 0.72);
+  --c-text-3: rgba(255, 255, 255, 0.48);
+
+  /* ---- Glass surfaces ---- */
+  --glass-bg: rgba(45, 45, 45, 0.45);
+  --glass-bg-hover: rgba(55, 55, 55, 0.55);
+  --glass-border: rgba(255, 255, 255, 0.09);
+  --glass-border-hover: rgba(255, 255, 255, 0.18);
+  --glass-blur: 14px;
+
+  /* ---- Typography ---- */
+  --font: 'Vazirmatn', system-ui, -apple-system, sans-serif;
+
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.875rem;
+  --fs-base: 1rem;
+  --fs-lg: 1.125rem;
+  --fs-xl: 1.375rem;
+  --fs-2xl: 1.75rem;
+  --fs-3xl: 2.25rem;
+  --fs-4xl: 3rem;
+  --fs-5xl: 3.75rem;
+
+  --fw-light: 300;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-black: 800;
+
+  --lh-tight: 1.2;
+  --lh-snug: 1.4;
+  --lh-normal: 1.6;
+
+  /* ---- Spacing ---- */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+  --sp-24: 6rem;
+
+  /* ---- Radius ---- */
+  --r-sm: 10px;
+  --r-md: 16px;
+  --r-lg: 24px;
+  --r-xl: 32px;
+  --r-2xl: 40px;
+  --r-full: 9999px;
+
+  /* ---- Shadows ---- */
+  --sh-sm: 0 2px 10px rgba(0, 0, 0, 0.18);
+  --sh-md: 0 6px 24px rgba(0, 0, 0, 0.25);
+  --sh-lg: 0 12px 48px rgba(0, 0, 0, 0.35);
+  --sh-pink: 0 6px 24px rgba(255, 62, 122, 0.35);
+  --sh-pink-lg: 0 10px 40px rgba(255, 62, 122, 0.4);
+
+  /* ---- Transitions ---- */
+  --t-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --t-base: 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  --t-slow: 450ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* ---- Layout ---- */
+  --maxw: 1200px;
+  --header-h: 72px;
+}
