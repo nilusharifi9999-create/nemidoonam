@@ -2,12 +2,14 @@ import { useRef } from 'react'
 import Reveal from './Reveal'
 
 const services = [
-  { icon: '💅', title: 'ناخن و زیبایی', provider: 'مریم اصغری', city: 'تهران', verified: true },
-  { icon: '🍳', title: 'آشپزی خانگی', provider: 'فاطمه نوری', city: 'اصفهان', verified: true },
-  { icon: '🎨', title: 'نقاشی و هنر', provider: 'زهرا قاسمی', city: 'شیراز', verified: true },
-  { icon: '✂️', title: 'خیاطی و دوخت', provider: 'سمیرا تابش', city: 'تهران', verified: false },
-  { icon: '🍰', title: 'شیرینی‌پزی', provider: 'الهام سلطانی', city: 'مشهد', verified: true },
-  { icon: '📸', title: 'عکاسی پرتره', provider: 'پریسا جواد', city: 'تبریز', verified: true },
+  { icon: '💅', title: 'طراحی ناخن و کاشت', provider: 'مریم اصغری', city: 'تهران، سعادت‌آباد', verified: true },
+  { icon: '🍳', title: 'آشپزی و غذای خانگی', provider: 'فاطمه نوری', city: 'اصفهان', verified: true },
+  { icon: '🎨', title: 'نقاشی دیواری و بوم', provider: 'زهرا قاسمی', city: 'شیراز', verified: true },
+  { icon: '✂️', title: 'خیاطی و طراحی لباس', provider: 'سمیرا تابش', city: 'تهران، پاسداران', verified: false },
+  { icon: '🍰', title: 'کیک و شیرینی سفارشی', provider: 'الهام سلطانی', city: 'مشهد', verified: true },
+  { icon: '📸', title: 'عکاسی پرتره و مراسم', provider: 'پریسا جوادی', city: 'تبریز', verified: true },
+  { icon: '💄', title: 'آرایش و گریم حرفه‌ای', provider: 'نرگس شریفی', city: 'تهران، فرشته', verified: true },
+  { icon: '🧶', title: 'ساخت صنایع دستی و بافت', provider: 'الهه مرادی', city: 'یزد', verified: true },
 ]
 
 export default function Services() {

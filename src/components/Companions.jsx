@@ -2,12 +2,14 @@ import { useRef } from 'react'
 import Reveal from './Reveal'
 
 const companions = [
-  { name: 'سارا دشتی', age: 24, interest: 'پیاده‌روی', color: '#ff3e7a', verified: true },
-  { name: 'نگار محمدی', age: 27, interest: 'گیمینگ', color: '#ff8c42', verified: true },
-  { name: 'الناز رضایی', age: 22, interest: 'ورزش', color: '#9b59b6', verified: true },
-  { name: 'مهسا کریمی', age: 29, interest: 'سفر', color: '#3498db', verified: false },
-  { name: 'یاسمن احمدی', age: 26, interest: 'موسیقی', color: '#e91e63', verified: true },
-  { name: 'دنیا موسوی', age: 23, interest: 'هنر', color: '#00bcd4', verified: true },
+  { name: 'سارا دشتی', age: 24, interest: 'پیاده‌روی در طبیعت', color: '#ff3e7a', verified: true },
+  { name: 'نگین عطایی', age: 27, interest: 'گیمینگ آنلاین', color: '#ff8c42', verified: true },
+  { name: 'الناز رضایی', age: 22, interest: 'بدنسازی و فیتنس', color: '#9b59b6', verified: true },
+  { name: 'مهسا کریمی', age: 29, interest: 'سفر و کمپینگ', color: '#3498db', verified: false },
+  { name: 'یاسمن احمدی', age: 26, interest: 'کلاس گیتار', color: '#e91e63', verified: true },
+  { name: 'دنیا موسوی', age: 23, interest: 'نقاشی و هنر', color: '#00bcd4', verified: true },
+  { name: 'پریسا نادری', age: 25, interest: 'دوچرخه‌سواری', color: '#2ecc71', verified: true },
+  { name: 'سمیرا تابش', age: 28, interest: 'کتاب‌خوانی', color: '#f39c12', verified: true },
 ]
 
 function Avatar({ name, color }) {
