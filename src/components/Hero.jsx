@@ -1,5 +1,3 @@
-import Mascot from './Mascot'
-
 const stats = [
   { num: '۲۰۰+', label: 'عضو مچ شده' },
   { num: '۱۰K+', label: 'عضو تایید شده' },
@@ -32,7 +30,7 @@ export default function Hero() {
 
         <div className="hero-mascot">
           <div className="hero-mascot-glow" />
-          <Mascot variant="laptop" size={340} className="hero-mascot-svg" />
+          <img src="/mascot/hero-laptop.png" alt="گارفی" className="hero-mascot-img" />
         </div>
       </div>
 

@@ -1,5 +1,4 @@
 import Reveal from './Reveal'
-import Mascot from './Mascot'
 
 export default function FinalCTA() {
   return (
@@ -8,7 +7,7 @@ export default function FinalCTA() {
         <Reveal>
           <div className="final-cta-card">
             <div className="final-cta-glow" />
-            <Mascot variant="megaphone" size={200} className="final-cta-mascot" />
+            <img src="/mascot/cta-thumbsup.png" alt="گارفی" className="final-cta-mascot" />
             <h2 className="final-cta-title">آماده‌ای؟ بزن بریم!</h2>
             <p className="final-cta-desc">
               همین الان شروع کن. رایگانه، امنه، و یه گارفی منتظرته.

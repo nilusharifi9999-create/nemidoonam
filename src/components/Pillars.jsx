@@ -1,5 +1,4 @@
 import Reveal from './Reveal'
-import Mascot from './Mascot'
 
 const pillars = [
   {
@@ -22,7 +21,7 @@ export default function Pillars() {
       <div className="section-inner">
         <Reveal>
           <div className="pillars-intro">
-            <Mascot variant="heart" size={120} className="pillars-mascot" />
+            <img src="/mascot/pillars-waving.png" alt="گارفی" className="pillars-mascot" />
             <h2 className="section-title">گارفـی چیه؟</h2>
             <p className="section-subtitle">
               گارفی یه پلتفرم دوست‌داشتنیه که دو کار اصلی انجام می‌ده: تو رو به همراه مناسب وصل می‌کنه،

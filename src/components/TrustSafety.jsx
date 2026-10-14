@@ -1,5 +1,4 @@
 import Reveal from './Reveal'
-import Mascot from './Mascot'
 
 const features = [
   {
@@ -27,7 +26,7 @@ export default function TrustSafety() {
           <Reveal>
             <div className="trust-mascot-wrap">
               <div className="trust-mascot-glow" />
-              <Mascot variant="shield" size={220} className="trust-mascot" />
+              <img src="/mascot/trust-headshot.png" alt="گارفی" className="trust-mascot" />
             </div>
           </Reveal>
 
